@@ -1,5 +1,5 @@
 /*
- * pcroom-converter
+ * notify-printer-status
  *
  * Copyright (c) 2016 T. H.
  *
