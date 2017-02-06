@@ -1,0 +1,12 @@
+{
+    "name": "nss-printer-notification",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "用紙の残量が少なくなったときに通知するChrome拡張",
+    "content_scripts": [
+        {
+            "matches": ["http://yspl2.sic.shibaura-it.ac.jp/*"],
+            "js": ["main.js"]
+        }
+    ]
+}
