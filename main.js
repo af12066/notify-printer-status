@@ -47,15 +47,15 @@ printer_status.orphis = [];
  * [9] = インクイエローの状態
 */
 for (let i = TD_START; i <= TD_END; i = i + 2) {
-    printer_status.obj[printer_status.obj.length] = document.getElementsByTagName("tr")[3]. childNodes[i].textContent;
-    printer_status.yapr1[printer_status.yapr1.length] = document.getElementsByTagName("tr")[4]. childNodes[i].textContent;
-    printer_status.ybpr1[printer_status.ybpr1.length] = document.getElementsByTagName("tr")[5]. childNodes[i].textContent;
-    printer_status.ycpr1[printer_status.ycpr1.length] = document.getElementsByTagName("tr")[6]. childNodes[i].textContent;
-    printer_status.ydpr1[printer_status.ydpr1.length] = document.getElementsByTagName("tr")[7]. childNodes[i].textContent;
-    printer_status.yepr1[printer_status.yepr1.length] = document.getElementsByTagName("tr")[8]. childNodes[i].textContent;
-    printer_status.yfpr1[printer_status.yfpr1.length] = document.getElementsByTagName("tr")[9]. childNodes[i].textContent;
-    printer_status.yfpr2[printer_status.yfpr2.length] = document.getElementsByTagName("tr")[10]. childNodes[i].textContent;
-    printer_status.orphis[printer_status.orphis.length] = document.getElementsByTagName("tr")[18]. childNodes[i].textContent;
+    printer_status.obj[printer_status.obj.length] = document.getElementsByTagName("tr")[3].childNodes[i].textContent;
+    printer_status.yapr1[printer_status.yapr1.length] = document.getElementsByTagName("tr")[4].childNodes[i].textContent;
+    printer_status.ybpr1[printer_status.ybpr1.length] = document.getElementsByTagName("tr")[5].childNodes[i].textContent;
+    printer_status.ycpr1[printer_status.ycpr1.length] = document.getElementsByTagName("tr")[6].childNodes[i].textContent;
+    printer_status.ydpr1[printer_status.ydpr1.length] = document.getElementsByTagName("tr")[7].childNodes[i].textContent;
+    printer_status.yepr1[printer_status.yepr1.length] = document.getElementsByTagName("tr")[8].childNodes[i].textContent;
+    printer_status.yfpr1[printer_status.yfpr1.length] = document.getElementsByTagName("tr")[9].childNodes[i].textContent;
+    printer_status.yfpr2[printer_status.yfpr2.length] = document.getElementsByTagName("tr")[10].childNodes[i].textContent;
+    printer_status.orphis[printer_status.orphis.length] = document.getElementsByTagName("tr")[18].childNodes[i].textContent;
 }
 
 is_lowpercentage(printer_status);
